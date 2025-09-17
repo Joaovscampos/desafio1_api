@@ -1,0 +1,21 @@
+{
+  "name": "accenture_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "allure:open": "allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "allure-cypress": "^3.4.1",
+    "cypress": "^13.13.1",
+    "dotenv": "^16.5.0"
+  }
+}
