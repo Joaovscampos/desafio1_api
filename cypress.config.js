@@ -8,7 +8,6 @@ export default defineConfig({
     experimentalRunAllSpecs: true,
     chromeWebSecurity: false,
     experimentalWebKitSupport: true,
-    baseUrl: process.env.BASE_URL,
     viewportWidth: 1920,
     viewportHeight: 1080,
     screenshotOnRunFailure: false,

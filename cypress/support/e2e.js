@@ -18,5 +18,6 @@ import './commands';
 import "allure-cypress";
 import './registerCommands'; 
 import './loginCommands'; 
+import './booksCommands';
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

@@ -16,9 +16,8 @@ Cypress.Commands.add('returnToken', (username, password) => {
     cy.loginSuccess(username, password).then((response) => {
         token = response.body.token;
         headers ={
-            'Authorization': `Bearer ${accessToken}`,
-            'Content-Type': 'application/json',
-        }
+            'Authorization': `Bearer ${token}`,
+        };
         return {token, headers};
     }); 
 });

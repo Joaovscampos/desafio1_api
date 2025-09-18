@@ -9,6 +9,15 @@ Cypress.Commands.add('createUser', (username, password) => {
     })
 }); 
 
+Cypress.Commands.add('returnUserId', (username, password) => {
+    let userId;
+    
+    cy.createUser(username, password).then((response) => {
+        userId = response.body.userId;
+        return userId;
+    });
+}); 
+
 
 
 
